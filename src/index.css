@@ -1,0 +1,13 @@
+/* Global theme CSS is loaded via <link> tags in index.html (kept as-is from the original template) */
+.main-menu__logo img {
+  height: 50px;      /* tweak this one number to resize */
+  width: auto;        /* keeps the logo's natural aspect ratio */
+  max-width: 220px;   /* safety cap so a very wide logo can't blow out the navbar */
+  object-fit: contain;
+}
+.footer-widget__about-logo img {
+  height: 170px;      /* tweak this one number to resize */
+  width: auto;        /* keeps the logo's natural aspect ratio */
+  max-width: 220px;   /* safety cap so a very wide logo can't blow out the navbar */
+  object-fit: contain;
+}
