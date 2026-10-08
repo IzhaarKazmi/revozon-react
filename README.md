@@ -1,16 +1,66 @@
-# React + Vite
+# Revozon — IT Services Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive business website for **Revozon**, an IT services and digital solutions agency. Built with React and Vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Revozon is a multi-page marketing website showcasing the agency's services, portfolio, team, pricing, and client testimonials. It features a fully responsive layout with smooth animations, sticky navigation, and a mobile-friendly design.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** — UI library
+- **React Router DOM 7** — Client-side routing
+- **Vite 8** — Build tool & dev server
+- **Bootstrap** — CSS framework
+- **Swiper** — Touch slider
+- **AOS** — Scroll animations
+- **Owl Carousel** — Responsive carousel
+- **Font Awesome** — Icons
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Multi-page routing (Home, About, Services, Contact)
+- Sticky header with top info bar
+- Hero banner with call-to-action
+- Services showcase with icons
+- Portfolio/projects gallery
+- Animated counter stats
+- Team member profiles
+- Client testimonials carousel
+- Pricing plans
+- FAQ accordion
+- Blog/news section
+- Contact form
+- Newsletter subscription
+- Mobile-responsive navigation
+- Chat popup widget
+- Search popup
+- Scroll-to-top button
+- Page loader animation
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/IzhaarKazmi/revozon-react.git
+
+# Navigate to project
+cd revozon-react
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+---
+
+This README covers the project overview, tech stack, features, full project structure, setup instructions, and contact info. Want me to adjust anything — like adding screenshots, changing the tone, or adding a license section?
